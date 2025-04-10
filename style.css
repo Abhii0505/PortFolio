@@ -12,4 +12,25 @@
     opacity: 1;
   }
 }
-
+#page1 {
+  background-image: url(./section.svg);
+}
+#page5 {
+  /* background-image: url(./section.svg); */
+}
+#hero-sec img {
+  height: 220px;
+  filter: invert(0.1);
+  position: absolute;
+  z-index: -1;
+  top: 120px;
+  left: 60px;
+}
+#bottomimage {
+  height: 200px;
+  filter: invert(0.1);
+  position: absolute;
+  top: -40px;
+  right: 150px;
+  z-index: -2;
+}
