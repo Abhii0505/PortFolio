@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-black text-white">
+  <body class="text-white bg-black">
     <div id="page1">
       <div id="hero">
         <!-- Header -->
@@ -50,8 +50,10 @@
 
         <!-- Hero Section -->
         <section
+          id="hero-sec"
           class="flex flex-col mt-28 sm:mt-20 items-start min-h-[67vh] px-5 lg:px-24"
         >
+          <img src="./images/bgimg.svg" alt="" srcset="" />
           <h1 class="font-bold leading-tight">
             <span class="text-[#ADFF2F] text-2xl sm:text-4xl space-x-10"
               >Hey there!👋, I'm-</span
@@ -264,10 +266,12 @@
             <div class="p-6 space-y-2">
               <h3 class="text-2xl font-bold">GHRS Medical Center</h3>
               <p class="text-gray-300 text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                delectus consequuntur consequatur vitae earum fugiat alias
-                tempora nemo ducimus perferendis quod, dolorum corporis error
-                eveniet rem reiciendis impedit provident iure.
+                Our medical center project is designed to deliver a seamless and
+                patient-centric healthcare experience. It features a team of
+                experienced doctors, specialists, and medical professionals
+                committed to providing high-quality care. With a focus on
+                convenience, the system ensures quick appointment scheduling and
+                minimal wait times.
               </p>
               <a
                 href="#"
@@ -290,10 +294,11 @@
             <div class="p-6 space-y-2">
               <h3 class="text-2xl font-bold">Vartaalaap</h3>
               <p class="text-gray-300 text-sm">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facere, unde minima architecto eveniet sed, soluta neque rerum
-                corrupti dolore autem ab! Fuga voluptatibus sed tenetur corporis
-                sint, odio veniam similique.
+                This is a video calling application specially designed for
+                individuals who are mute or have speech impairments. The
+                platform uses real-time hand gesture recognition technology to
+                interpret gestures during live calls and instantly convert them
+                into text-based chat messages. By bridging the communication gap
               </p>
               <a
                 href="#"
@@ -329,19 +334,14 @@
       </section>
     </div>
     <div id="page5">
-      <div id="contact" class="bg-black text-white py-16">
+      <div id="contact" class="text-white py-16">
         <div
           id="page3"
           class="max-w-4xl mx-auto flex flex-col items-center text-center px-4 relative"
         >
           <!-- Optional background image (adjust positioning as needed) -->
-          <img
-            src="./images/bgimg.svg"
-            alt="image"
-            class="h-[200px] invert-[0.1] absolute -z-10 left-[55%]"
-          />
-
           <div id="page3-sub" class="mb-8">
+            <img src="./images/bgimg.svg" alt="image" id="bottomimage" />
             <h1 class="text-5xl md:text-7xl font-bold mb-4">Keep In Touch.</h1>
             <p class="text-lg max-w-lg">
               I'm currently specializing in Front-end Development. Feel free to
@@ -392,7 +392,11 @@
             </button>
           </form>
 
-          
+          <!-- <p class="text-xs mt-10 text-gray-400">
+            Designed and Developed by
+            <span class="font-semi-bold text-white">Abhinav</span>. Built with
+            ❤️ & React. Hosted on GitHub.
+          </p> -->
         </div>
       </div>
     </div>
