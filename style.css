@@ -34,3 +34,16 @@
   right: 150px;
   z-index: -2;
 }
+
+@media (max-width: 768px) {
+  #hero-sec img {
+    height: 150px;
+    top: 150px;
+    left: 10px;
+  }
+  #bottomimage {
+    height: 150px;
+    top: -20px;
+    right: 50px;
+  }
+}
