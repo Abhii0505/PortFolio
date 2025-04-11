@@ -274,7 +274,7 @@
                 minimal wait times.
               </p>
               <a
-                href="https://ghrsmedical.netlify.app/"
+                href="#"
                 target="_blank"
                 class="inline-block mt-2 text-green-400 hover:text-green-300 font-semibold"
                 >Visit Site →</a
@@ -350,6 +350,7 @@
           </div>
 
           <form
+            id="contactForm"
             action="https://api.web3forms.com/submit"
             method="POST"
             class="w-3/4 max-w-md space-y-4"
@@ -391,6 +392,21 @@
               Send
             </button>
           </form>
+          <div
+            id="popup"
+            style="
+              display: none;
+              position: fixed;
+              top: 20px;
+              right: 20px;
+              background: #4bb543;
+              color: white;
+              padding: 10px 20px;
+              border-radius: 5px;
+            "
+          >
+            ✅ Message sent successfully!
+          </div>
 
           <!-- <p class="text-xs mt-10 text-gray-400">
             Designed and Developed by
@@ -402,19 +418,6 @@
     </div>
 
     <!-- JS for toggle -->
-    <script>
-      const menuBtn = document.getElementById("menu-btn");
-      const mobileMenu = document.getElementById("mobile-menu");
-
-      menuBtn.addEventListener("click", () => {
-        if (mobileMenu.classList.contains("hidden")) {
-          mobileMenu.classList.remove("hidden");
-          mobileMenu.classList.add("flex", "slide-down");
-        } else {
-          mobileMenu.classList.add("hidden");
-          mobileMenu.classList.remove("flex", "slide-down");
-        }
-      });
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
