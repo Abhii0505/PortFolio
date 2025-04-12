@@ -50,63 +50,93 @@
         </header>
 
         <!-- Hero Section -->
-        <section
-          id="hero-sec"
-          class="flex flex-col mt-28 sm:mt-20 items-start min-h-[67vh] px-5 lg:px-24"
-        >
-          <img src="./images/bgimg.svg" alt="" srcset="" />
-          <h1 class="font-bold leading-tight">
-            <span class="text-[#ADFF2F] text-2xl sm:text-4xl space-x-10"
-              >Hey there!👋, I'm-</span
-            ><br />
-            <span class="text-white text-6xl sm:text-6xl md:text-8xl"
-              >Abhinav<span>.</span></span
-            >
-          </h1>
-
-          <p class="text-xl sm:text-2xl text-[#B3ADAD] mt-4">
-            <strong class="text-white">Software Engineer.</strong> A self-taught
-            developer with an interest in <br class="hidden sm:block" />
-            Computer Science.
-          </p>
-
-          <div class="mt-6 space-y-1 text-base sm:text-lg">
-            <p class="text-[#808080] text-md">
-              🚀 Currently specializing in Frontend (React)
-            </p>
-            <p class="text-[#808080] text-md">
-              ⚡ Frontend Engineer at
-              <a
-                href="https://edu.ieee.org/in-mrce/"
-                class="text-[#ADFF2F] font-semibold"
-                target="_blank"
-                >IEEE MRU</a
+        <div class="flex flex-wrap md:flex-nowrap">
+          <section
+            id="hero-sec"
+            class="flex flex-col mt-20 sm:mt-20 items-start px-5 lg:px-24"
+          >
+            <img src="./images/bgimg.svg" alt="" srcset="" />
+            <h1 class="font-bold leading-tight">
+              <span class="text-[#ADFF2F] text-2xl sm:text-4xl space-x-10"
+                >Hey there!👋, I'm-</span
+              ><br />
+              <span class="text-white text-6xl sm:text-6xl md:text-8xl"
+                >Abhinav<span>.</span></span
               >
-            </p>
-          </div>
+            </h1>
 
-          <div class="flex flex-wrap gap-4 mt-8 text-white">
-            <a
-              href="https://github.com/Abhinav9971"
-              target="_blank"
-              class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
-              >GitHub</a
-            >
-            <a
-              href="https://www.linkedin.com/in/abhinav-aa388b288/"
-              target="_blank"
-              class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
-              >LinkedIn</a
-            >
-            <a
-              href="./Portfolio.pdf"
-              target="_blank"
-              class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
-              download="Abhinav_Resume.pdf"
-              >Download CV</a
-            >
+            <p class="text-xl sm:text-2xl text-[#B3ADAD] mt-4">
+              <strong class="text-white">Software Engineer.</strong> A
+              self-taught developer with an interest in
+              <br class="hidden sm:block" />
+              Computer Science.
+            </p>
+
+            <div class="mt-6 space-y-1 text-base sm:text-lg">
+              <p class="text-[#808080] text-md">
+                🚀 Currently specializing in Frontend (React)
+              </p>
+              <p class="text-[#808080] text-md">
+                ⚡ Frontend Engineer at
+                <a
+                  href="https://edu.ieee.org/in-mrce/"
+                  class="text-[#ADFF2F] font-semibold"
+                  target="_blank"
+                  >IEEE MRU</a
+                >
+              </p>
+            </div>
+
+            <div class="flex flex-wrap gap-4 mt-8 text-white">
+              <a
+                href="https://github.com/Abhinav9971"
+                target="_blank"
+                class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/abhinav-aa388b288/"
+                target="_blank"
+                class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
+                >LinkedIn</a
+              >
+              <a
+                href="./Portfolio.pdf"
+                target="_blank"
+                class="border border-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition"
+                download="Abhinav_Resume.pdf"
+                >Download CV</a
+              >
+            </div>
+          </section>
+
+          <div
+            class="rounded-xl shadow-lg md:w-[42vw] md:max-w-screen mt-24 w-[100vw]"
+          >
+            <div class="window-bar">
+              <div class="dot red"></div>
+              <div class="dot yellow"></div>
+              <div class="dot green"></div>
+            </div>
+            <div class="code-box text-sm">
+              <pre><code><span class="keyword">const</span> coder = &#123;
+        <span class="prop">name</span>: <span class="string">'Abhinav'</span>,
+        <span class="prop">skills</span>: [<span class="string">'C++'</span>, <span class="string">'Java'</span>, <span class="string">'JavaScript'</span>, <span class="string">'React'</span>, <span class="string">'Node.js'</span>, <span class="string">'MongoDB'</span>,
+        <span>          </span><span class="string">'Java'</span>, <span class="string">'JavaScript'</span>, <span class="string">'React'</span>, <span class="string">'Node.js'</span>, <span class="string">'MongoDB'</span>]
+        <span class="prop">hardWorker</span>: <span class="bool">true</span>,
+        <span class="prop">quickLearner</span>: <span class="bool">true</span>,
+        <span class="prop">problemSolver</span>: <span class="bool">true</span>,
+        <span class="prop">hireable</span>: <span class="func">function</span>() &#123;
+          <span class="keyword">return</span> (
+            <span class="keyword">this</span>.hardWorker &&
+            <span class="keyword">this</span>.problemSolver &&
+            <span class="keyword">this</span>.skills.length &gt;= 5
+          );
+        &#125;
+      &#125;;</code></pre>
+            </div>
           </div>
-        </section>
+        </div>
       </div>
     </div>
 
@@ -330,7 +360,7 @@
               <a
                 href="#"
                 target="_blank"
-                class="inline-block mt-2 text-green-400 hover:text-green-300 font-semibold pointer-events-none"
+                class="inline-block mt-2 text-gray-400 hover:text-green-300 font-semibold pointer-events-none"
                 >In Progress →</a
               >
             </div>
