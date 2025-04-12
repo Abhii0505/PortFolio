@@ -26,7 +26,7 @@ gsap.from("#aboutme", {
     start: "top 65%", // when top of .box hits 80% of viewport height
     end: "top 30%",
     scrub: true, // sync with scroll
-    markers: true, // show start/end markers
+    // show start/end markers
     toggleActions: "play pause resume reverse",
   },
 });
@@ -40,7 +40,7 @@ gsap.from("#aboutme img", {
     start: "top 65%", // when top of .box hits 80% of viewport height
     end: "top 30%",
     scrub: true, // sync with scroll
-    markers: true, // show start/end markers
+     // show start/end markers
     toggleActions: "play pause resume reverse",
   },
 });
