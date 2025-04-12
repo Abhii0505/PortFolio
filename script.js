@@ -23,7 +23,7 @@ gsap.from("#aboutme", {
   ease: "power2.out",
   scrollTrigger: {
     trigger: "#aboutme",
-    start: "top 65%", // when top of .box hits 80% of viewport height
+    start: "top 75%", // when top of .box hits 80% of viewport height
     end: "top 30%",
     scrub: true, // sync with scroll
     // show start/end markers
